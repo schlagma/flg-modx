@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+[[$easter-egg]]
+
+<html lang="de">
+    <head>
+        <title>[[$menutitle-if-avail]] | [[++site_name]]</title>
+
+        [[$html-head]]
+    </head>
+
+    <body id="body">
+        [[$mn-nav]]
+
+        [[$header]]
+
+        [[$nav-b]]
+
+        <div id="main">
+            <div class="container">
+                <div class="row">
+                    [[$subnav-b]]
+                    <div class="col-md-9">
+                        <h2>[[$longtitle-if-avail]]</h2>
+                        [[$box-hint-list]]
+                        <p><strong>[[*introtext]]</strong></p>
+                        [[*content]]
+                        [[$shariff]] <!-- Nur ein Test. Können in den Template-Variablen deaktiviert werden. -->
+                        [[$last-edited]]
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        [[$footer]]
+
+        [[$go-to-top]]
+
+        [[$scripts]]
+
+        [[$piwik]]
+    </body>
+</html>

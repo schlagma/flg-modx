@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+[[$easter-egg]]
+
+<html lang="de">
+    <head>
+        <title>[[$menutitle-if-avail]] | [[++site_name]]</title>
+
+        [[$html-head]]
+    </head>
+
+    <body>
+        [[$mn-nav]]
+
+        [[$header]]
+
+        [[$nav-b]]
+
+        <div id="main">
+            <div class="container">
+                <h2>[[$longtitle-if-avail]]</h2>
+                [[$box-hint-list]]
+                <p><strong>[[*introtext]]</strong></p>
+                [[*content]]
+                [[$shariff]]
+                [[$last-edited]]
+            </div>
+        </div>
+
+        [[$footer]]
+
+        [[$go-to-top]]
+
+        [[$scripts]]
+
+        [[$piwik]]
+    </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+[[$easter-egg]]
+
+<html lang="de">
+    <head>
+        <title>[[++site_name]]</title>
+
+        <meta name="description" content="Das Friedrich-List-Gymnasium ist ein Gymnasium im Stadtzentrum von Reutlingen. Mit seiner über 700jährigen Geschichte ist es die älteste Schule der Stadt Reutlingen.">
+
+        [[$html-head]]
+    </head>
+
+    <body>
+        [[$mn-nav]]
+
+        [[$header]]
+
+        [[$nav-b]]
+
+        <div id="main">
+            <div id="start-intro" class="container">
+                <h2>[[$longtitle-if-avail]]</h2>
+                <p><strong>[[*introtext]]</strong></p>
+                [[*content]]
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4">
+                        [[$start-pictures]]
+                        <div class="clear-both"></div>
+                        [[$announcements-list]]
+                    </div>
+                    <div class="col-xl-8">
+                        [[$news-list]]
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        [[$footer]]
+
+        [[$go-to-top]]
+
+        [[$scripts]]
+
+        [[$piwik]]
+    </body>
+</html>

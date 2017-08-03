@@ -1,0 +1,8 @@
+<item>
+    <title>[[+pagetitle:cdata]]</title>
+    <link>[[~[[+id]]? &scheme=`full`]]</link>
+    <description>[[+content:cdata]]</description>
+    <category>Ankündigungen</category>
+    <pubDate>[[+publishedon:strtotime:date=`%Y-%m-%dT%H:%M:%S%z`]]</pubDate>
+    <guid isPermaLink="false">[[~[[+id]]? &scheme=`full`]]</guid>
+</item>

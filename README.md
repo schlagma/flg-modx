@@ -1,2 +1,2 @@
 # flg-modx
-MODX Templates, Chunks, TVs and other things for list-gymnasium.de
+MODX Templates, Chunks and other things for list-gymnasium.de

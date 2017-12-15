@@ -1,0 +1,18 @@
+<nav id="nav" class="navbar navbar-expand-md">
+	<div class="container">
+		<div class="collapse navbar-collapse">
+			[[Wayfinder?
+				&startId=`2`
+				&level=`1`
+				&sortBy=`menuindex`
+				&scheme=`full`
+				&rowTpl=`nav-tpl`
+				&outerTpl=`nav-tpl-o`
+			]]
+	
+			<form class="searchform" action="/topnav/suche.html" method="get">
+				<input class="searchfield" type="search" name="search" placeholder="Suchen …" /><button class="searchbutton" type="submit" title="Suchen &hellip;" style="padding: 0 1em;"><i class="fa fa-search"></i></button>
+			</form>
+		</div>
+  	</div>
+</nav>

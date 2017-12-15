@@ -1,0 +1,5 @@
+<div class="box info-yellow">
+    <p>[[+resultInfo]]</p>
+</div>
+
+[[+results]]

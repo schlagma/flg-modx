@@ -1,0 +1,13 @@
+<label for="mn-cb-nav" id="navbutton" onclick="hiddenBody()" accesskey="0">
+	<i id="nav-open" class="fa fa-bars" title="Navigation"></i><i id="nav-close" class="fa fa-times" title="Schließen"></i>
+</label>
+
+<header>
+	<div class="container">
+		<a id="main-header" href="[[++site_url]]" title="Friedrich-List-Gymnasium Reutlingen" accesskey="1">
+			<h1>[[++site_name]]</h1>
+			<span>IPSA SCIENTIA POTESTAS EST</span>
+		</a>
+		[[$topnav]]
+	</div>
+</header>

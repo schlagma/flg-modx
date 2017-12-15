@@ -1,0 +1,6 @@
+<div id="subnav-heading">
+	<h4><a[[+wf.classes]] href="[[+wf.link]]" title="[[+wf.title]]">[[+wf.title]]</a></h4>
+</div>
+<div id="subnav-content">
+	[[+wf.wrapper]]
+</div>

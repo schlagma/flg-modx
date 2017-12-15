@@ -1,0 +1,9 @@
+<div class="mn-item">
+	<div class="mn-item-box">
+		<div class="mn-title"><span[[+wf.classes]]>[[+wf.title]]</span></div>
+		<div class="mn-angles">
+   			<div class="mn-title-shadow"><div></div></div>
+   			<a class="mn-link" href="[[+wf.link? &scheme=`full`]]" [[+wf.attributes]]><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+		</div>
+	</div>
+</div>

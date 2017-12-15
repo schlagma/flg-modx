@@ -1,0 +1,15 @@
+<div class="news-element">
+	<a href="[[~[[+id]]? &scheme=`full`]]" [[+link_attributes]]>
+		<table>
+			<tr>
+				<td>
+					<h3><span class="search-number">[[+idx]]</span>[[+pagetitle]]</h3>
+		            <p>[[+extract]]</p>
+			    </td>
+				<td class="teaserimage">
+                    <img src="http://list-gymnasium.de/[[+teaserimage:empty=`assets/content/neuigkeiten/favicon-teaserimage.png`]]" alt="" />
+				</td>
+			</tr>
+		</table>
+	</a>
+</div>

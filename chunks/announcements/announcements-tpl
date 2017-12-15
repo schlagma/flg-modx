@@ -1,0 +1,68 @@
+[[!If?
+	&subject=`[[+teaserimage]]`
+	&operator=`!empty`
+	&then=`
+	<!-- Evtl. andere Lösung? -->
+		<div class="box announcement-image" style="background-image:url(/[[+teaserimage]]);">
+			<h4>[[+pagetitle]]</h4>
+			[[+content]]
+		</div>`
+	&else=`
+
+[[If?
+	&subject=`[[+announcements-color]]`
+	&operator=`=`
+	&operand=`rot`
+	&then=`
+		<div class="box announcement-red">
+			<h4>[[+pagetitle]]</h4>
+			[[+content]]
+		</div>`
+]]
+
+[[If?
+	&subject=`[[+announcements-color]]`
+	&operator=`=`
+	&operand=`gelb`
+	&then=`
+		<div class="box announcement-yellow">
+			<h4>[[+pagetitle]]</h4>
+			[[+content]]
+		</div>`
+]]
+
+[[If?
+	&subject=`[[+announcements-color]]`
+	&operator=`=`
+	&operand=`grün`
+	&then=`
+		<div class="box announcement-green">
+			<h4>[[+pagetitle]]</h4>
+			[[+content]]
+		</div>`
+]]
+
+[[If?
+	&subject=`[[+announcements-color]]`
+	&operator=`=`
+	&operand=`blau`
+	&then=`
+		<div class="box announcement-blue">
+			<h4>[[+pagetitle]]</h4>
+			[[+content]]
+		</div>`
+]]
+
+[[If?
+	&subject=`[[+announcements-color]]`
+	&operator=`=`
+	&operand=`grau`
+	&then=`
+		<div class="box info">
+			<h4>[[+pagetitle]]</h4>
+			[[+content]]
+		</div>`
+]]
+`
+]]
+

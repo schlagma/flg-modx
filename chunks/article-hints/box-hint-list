@@ -1,0 +1,28 @@
+[[If?
+	&subject=`[[*article-custom]]`
+	&operator=`=`
+	&operand=`1`
+	&then=`
+		[[$box-custom]]`
+]]
+[[If?
+	&subject=`[[*article-deprecated]]`
+	&operator=`=`
+	&operand=`1`
+	&then=`
+		[[$box-deprecated]]`
+]]
+[[If?
+	&subject=`[[*article-incomplete]]`
+	&operator=`=`
+	&operand=`1`
+	&then=`
+		[[$box-incomplete]]`
+]]
+[[If?
+	&subject=`[[*article-wip]]`
+	&operator=`=`
+	&operand=`1`
+	&then=`
+		[[$box-wip]]`
+]]

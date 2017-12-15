@@ -1,0 +1,8 @@
+[[Wayfinder?
+  &startId=`3`
+  &sortBy=`menuindex`
+  &scheme=`full`
+
+  &outerTpl=`topnav-outer`
+  &rowTpl=`topnav-row`
+]]

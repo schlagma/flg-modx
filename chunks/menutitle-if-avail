@@ -1,0 +1,6 @@
+[[If?
+  &subject=`[[*menutitle]]`
+  &operator=`empty`
+  &then=`[[*pagetitle]]`
+  &else=`[[*menutitle]]`
+]]

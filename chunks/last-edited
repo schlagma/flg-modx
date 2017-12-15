@@ -1,0 +1,11 @@
+[[If?
+	&subject=`[[*last-edited]]`
+	&operator=`=`
+	&operand=`1`
+	&then=`<div class="last-edited">
+<hr />
+<p>	
+[[*editedby:userinfo=`fullname`:empty=`[[*createdby:userinfo=`fullname`]]`]]&nbsp; |&nbsp; <strong>Stand:</strong> [[*editedon:strtotime:date=`%d.%m.%Y`:empty=`[[*createdon:strtotime:date=`%d.%m.%Y`]]`]]</p>
+</div>`
+	&else=``
+]]

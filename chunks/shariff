@@ -1,0 +1,7 @@
+[[If?
+	&subject=`[[*shariff-onoff]]`
+	&operator=`=`
+	&operand=`1`
+	&then=`<div class="shariff" data-backend-url="[[++list_base]]shariff-backend/" data-theme="standard" data-services="[&quot;facebook&quot;,&quot;twitter&quot;,&quot;googleplus&quot;,&quot;whatsapp&quot;,&quot;mail&quot;,&quot;print&quot;,&quot;info&quot;]" data-mail-url="mailto:"></div>`
+	&else=``
+]]

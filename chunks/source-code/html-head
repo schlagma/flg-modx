@@ -1,0 +1,46 @@
+<meta charset="utf-8" />
+<meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport" />
+<meta name="theme-color" content="#222">
+
+<meta name="keywords" content="flg, friedrich, list, gymnasium, reutlingen, schule" />
+<meta name="author" content="Friedrich-List-Gymnasium Reutlingen">
+[[If?
+	&subject=`[[*id]]`
+	&operator=`!=`
+	&operand=`600`
+	&then=`<meta name="date" content="[[*editedon:strtotime:date=`%Y-%m-%d`:empty=`[[*createdon:strtotime:date=`%Y-%m-%d`]]`]]" />`
+	&else=``
+]]
+<meta property="og:locale" content="de_DE" />
+
+<link type="text/css" href="[[++list_base]]assets/layout/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+<link type="text/css" href="[[++list_base]]assets/layout/css/lightbox.css" rel="stylesheet" />
+<link type="text/css" href="[[++list_base]]assets/layout/css/lightslider.css" rel="stylesheet" />
+<link type="text/css" href="[[++list_base]]assets/layout/plugins/leaflet/leaflet.css" rel="stylesheet" />
+<link type="text/css" href="[[++list_base]]assets/layout/plugins/shariff/shariff.min.css" rel="stylesheet" />
+
+<link type="text/css" href="[[++list_base]]assets/layout/css/list/vars.css" rel="stylesheet" />
+<link type="text/css" href="[[++list_base]]assets/layout/css/list/flg-layout.min.css" rel="stylesheet" />
+
+<link type="text/css" href="[[++list_base]]assets/layout/css/list/font-awesome.min.css" rel="stylesheet" />
+<link type="text/css" href="[[++list_base]]assets/layout/css/list/fonts.css" rel="stylesheet" />
+<link type="text/css" href="[[++list_base]]assets/layout/css/list/shariff.css" rel="stylesheet" />
+
+<link type="text/css" href="[[++list_base]]assets/layout/css/list/bootstrap-list.css" rel="stylesheet" />
+
+<!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="[[++list_base]]assets/layout/css/list/ie-info.css" />
+<![endif]-->
+
+<link type="application/rss+xml" title="Neuigkeiten vom Friedrich-List-Gymnasium" href="[[++list_base]]topnav/news.xml" rel="alternate" />
+
+<link href="/favicon.ico" rel="shortcut icon" />
+<link sizes="32x32" href="[[++list_base]]assets/layout/img/png/favicon-32x32-1.png" type="image/png" rel="icon" />
+<link sizes="96x96" href="[[++list_base]]assets/layout/img/png/favicon-96x96-1.png" type="image/png" rel="icon" />
+<link sizes="160x160" href="[[++list_base]]assets/layout/img/png/favicon-160x160-1.png" type="image/png" rel="icon" />
+<link sizes="196x196" href="[[++list_base]]assets/layout/img/png/favicon-196x196-1.png" type="image/png" rel="icon" />
+<link sizes="300x300" href="[[++list_base]]assets/layout/img/png/favicon-mobile-1.png" type="image/png" rel="apple-touch-icon-precomposed" />
+<link sizes="any" href="[[++list_base]]assets/layout/img/svg/favicon-1.svg" type="image/svg+xml" rel="icon">
+<meta content="#f0f0f2" name="msapplication-TileColor" />
+<meta content="[[++list_base]]assets/layout/img/png/firefox-mobile-4.png" name="msapplication-TileImage" />

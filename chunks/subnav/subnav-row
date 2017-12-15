@@ -1,0 +1,1 @@
+<li[[+wf.classes]]><div><a href="[[+wf.link]]" title="[[+wf.title]]" [[+wf.attributes]]><div></div>[[+wf.title]]<img class="mn-subnav-icon" src="/assets/layout/img/png/mn-arrow-right.png" alt="" /></a></div>[[+wf.wrapper]]</li>

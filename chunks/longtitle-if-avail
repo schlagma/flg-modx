@@ -1,0 +1,6 @@
+[[If?
+  &subject=`[[*longtitle]]`
+  &operator=`empty`
+  &then=`[[*pagetitle]]`
+  &else=`[[*longtitle]]`
+]]

@@ -1,0 +1,83 @@
+<footer class="footer">
+    [[!If?
+	&subject=`[[*id]]`
+	&operator=`==`
+	&operand=`600`
+	&then=`        <div id="breadcrumbs">
+        <div class="container">
+                        <ul>
+                            <li><a href="[[~1]]"><i class="fa fa-home" title="Start"></i></a></li>
+                            &nbsp; <i class="fa fa-angle-right"></i>&nbsp;&nbsp; <li>Neuigkeiten</li>
+                        </ul>
+                    </div>
+                </div>`
+	&else=`        <div id="breadcrumbs">
+        <div class="container" style="padding-top: 1rem; padding-bottom: 1rem;">
+                        [[Breadcrumbs]]
+                    </div>
+                </div>`]]
+
+    <div id="footer-main">
+		<div class="container">
+		<div class="row">
+        <div class="col-xl-4">
+                <input id="mn-cb-address" class="mn-checkbox" type="checkbox">
+                <label for="mn-cb-address"><h4>Kontakt<img id="address-down" src="[[++list_base]]assets/layout/img/png/mn-arrow-right.png" alt=""></h4></label>
+                
+                <div id="footer-address">
+                    <p><b>Friedrich-List-Gymnasium Reutlingen</b></p>
+                    <p>Kanzleistraße 28</p>
+                    <p>72764 Reutlingen</p>
+                    <p class="p-break"><b>Telefon:</b> (07121) 303-4551 oder -4552</p>
+                    <p><b>Telefax:</b> (07121) 303-4553</p>
+                    <p><b>E-Mail:</b> <script>
+                    name="list-gymnasium";
+                    domain="reutlingen.de";
+                    document.write('<a href="mailto:' + name + '@' + domain + '" title="E-Mail an das Sekretariat" accesskey="s">' + name + '@' + domain + '</a>');
+                    </script>
+                    </p>
+                </div>
+        </div>
+
+        <div class="col-xl-5">
+                <input id="mn-cb-copyright" class="mn-checkbox" type="checkbox">
+                <label for="mn-cb-copyright"><h4>Copyright<img id="copyright-down" src="[[++list_base]]/assets/layout/img/png/mn-arrow-right.png" alt=""></h4></label>
+                
+                <div id="copyright1">
+                    <p><a href="/[[~616]]" title="Copyright-Info" accesskey="7">Copyright</a> © 1997–[[!getDate:date=`%Y`?]] Friedrich-List-Gymnasium Reutlingen.</p>
+                    <p class="p-break">Diese Website basiert auf <a href="https://modx.com/" title="? MODX (CMS)" target="_blank"><i class="fa fa-modx"> MODX</i></a> und wird durch das <a href="/[[~24]]" title="Seite des Webteams" target="_blank" accesskey="8">Webteam</a> gestaltet.</p>
+                </div>
+
+                <p id="fehler" class="p-break">Bitte senden Sie Fehler und Anregungen an <script>
+                name="webteam";
+                domain="list-gymnasium.de";
+                document.write('<a href="mailto:' + name + '@' + domain + '" title="E-Mail an das Webteam" accesskey="w">' + name + '@' + domain + '</a>');
+                </script>.</p>
+
+				
+            </div>
+		<div class="col-md-3" id="certs">
+			<a href="http://www.schule-ohne-rassismus.org/" target="_blank"><img src="[[++list_base]]assets/content/sonstiges/zertifikate/schule-ohne-rassismus.svg" title="Schule ohne Rassismus - Schule mit Courage"></a>
+			<a href="https://rp.baden-wuerttemberg.de/rpt/Abt7/Foerdern/Seiten/Chronisch_Kranke.aspx" target="_blank"><img src="[[++list_base]]assets/content/sonstiges/zertifikate/chronisch-kranke.jpg" title="Besondere Achtsamkeit für chronisch kranke SchülerInnen"></a>
+			<a href="http://www.erasmusplus.de/" target="_blank"><img src="[[++list_base]]assets/content/sonstiges/zertifikate/erasmus-plus.jpg" title="Erasmus+"></a>
+			<a href="http://www.europaeischer-referenzrahmen.de/delf.php" target="_blank"><img src="[[++list_base]]assets/content/sonstiges/zertifikate/delf.jpg" title="DELF (Diplôme d'études en langue française)"></a>
+			<a href="http://lead.schule/schulkooperationen/" target="_blank"><img src="[[++list_base]]assets/content/sonstiges/LEAD_Logo_Partnerschule.png" title="LEAD-Partnerschule"></a>
+		</div>
+		</div>
+	</div>
+
+        <div id="easter-egg" class="container">
+            <p class="p-break">Felix, qui potuit rerum cognoscere causas.</p>
+        </div>
+
+    <div id="footer-media">
+        <div class="container">
+            <p>
+                <a href="/topnav/hilfe.html" title="Wo ist was?" accesskey="2"><i class="fa fa-question-circle">&nbsp; Hilfe</i></a>&nbsp;&nbsp;· &nbsp;&nbsp; 
+                <a href="/topnav/news.xml" title="Neuigkeiten vom FLG" target="_blank" accesskey="3"><i class="fa fa-rss">&nbsp; RSS-Feed</i></a>&nbsp;&nbsp;· &nbsp;&nbsp; 
+                <a href="https://moodle2.flg.rt.schule-bw.de/moodle" title="Virtuelles Lehrerzimmer" target="_blank" accesskey="4"><i class="fa fa-comments">&nbsp; VL</i></a>&nbsp;&nbsp;· &nbsp; &nbsp;
+                <a href="https://moodle.flg.rt.schule-bw.de/moodle" title="Moodle" target="_blank" accesskey="5"><i class="fa fa-comments">&nbsp; Moodle</i></a>&nbsp;&nbsp;· &nbsp;&nbsp;<a href="http://alumni.list-gymnasium.de/" title="Alumni" target="_blank" accesskey="6"><i class="fa fa-graduation-cap">&nbsp; Alumni</i></a>
+            </p>
+        </div>
+    </div>
+</footer>

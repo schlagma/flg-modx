@@ -1,0 +1,34 @@
+<div class="container">
+<div class="row">
+<div class="col-md-8">
+<fieldset class="only-lists">
+<legend>MAIN</legend>
+[[Wayfinder?
+	&startId=`2`
+	&displayStart=`0`
+	&sortBy=`menuindex`
+	&scheme=`full`
+	&ignoreHidden=`true`
+	&excludeDocs=`270,329`
+	&rowTpl=`sitemap-row`
+]]
+</fieldset>
+</div>
+
+<div class="col-md-4">
+<fieldset class="only-lists">
+<legend>TOPNAV</legend>
+[[Wayfinder?
+	&startId=`3`
+	&displayStart=`0`
+	&sortBy=`menuindex`
+	&scheme=`full`
+	&ignoreHidden=`true`
+	&level=`1`
+  	&excludeDocs=`8,197,571`
+	&rowTpl=`sitemap-row`
+]]
+</fieldset>
+</div>
+</div>
+</div>

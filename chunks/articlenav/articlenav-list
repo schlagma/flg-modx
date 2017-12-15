@@ -1,0 +1,11 @@
+<div class="button-field">
+	[[getResources?
+		&tpl=`articlenav-tpl`
+	  	&parents=`[[*id]]`
+		&depth=`0`
+  		&limit=`0`
+		&sortby=`menuindex`
+	  	&sortdir=`ASC`
+		&showHidden=`true`
+	]]
+</div>

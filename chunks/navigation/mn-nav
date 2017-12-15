@@ -1,0 +1,40 @@
+<input id="mn-cb-nav" class="mn-checkbox" type="checkbox">
+<nav id="mn-nav">
+	<div style="height: 1.5em;"></div>
+	<ul>
+		<li>
+			<form class="searchform" action="/topnav/suche.html" method="get">
+				<div id="mn-search">
+					<input class="searchfield" type="search" name="search" placeholder="Suchbegriff …"/><button class="searchbutton" type="submit" title="Suchen &hellip;" style="padding: 0 1em;"><i class="fa fa-search"></i></button>
+				</div>
+			</form>
+		</li>
+	</ul>
+	<div class="mn-wrapper">
+	[[Wayfinder?
+		&startId=`2`
+		&displayStart=`0`
+		&sortBy=`menuindex`
+		&scheme=`full`
+		&ignoreHidden=`true`
+		&selfClass=`current`
+		&parentRowTpl=`mn-tpl-parent`
+		&rowTpl=`mn-tpl-row`
+        &excludeDocs=`329`
+	]]
+	</div>
+	<div class="mn-wrapper">
+	[[Wayfinder?
+		&startId=`3`
+		&displayStart=`0`
+		&sortBy=`menuindex`
+		&scheme=`full`
+		&rowTpl=`mn-tpl-row`
+	]]
+	</div>
+</nav>
+<label for="mn-cb-nav" id="overlay" onclick="hiddenBody()"></label>
+
+<label for="mn-cb-nav" id="navbutton" onclick="hiddenBody()">
+	<i id="nav-open" class="fa fa-bars" title="Navigation"></i><i id="nav-close" class="fa fa-times" title="Schließen"></i>
+</label>

@@ -1,0 +1,1 @@
+<a class="link-button" href="[[~[[+id]]? &scheme=`full`]]" title="[[+pagetitle]]" [[+link_attributes]]>[[+pagetitle]]</a>

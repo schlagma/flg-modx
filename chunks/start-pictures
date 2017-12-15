@@ -1,0 +1,8 @@
+<ul class="slider pictures" id="start-pictures">
+	<li><img src="[[++list_base]]assets/content/ueber-uns/raeumlichkeiten/hauptgebaeude-klein.jpg" alt="" /></li>
+	<li><img src="[[++list_base]]assets/content/ueber-uns/raeumlichkeiten/mensa-haus-klein.jpg" alt="" /></li>
+	<li><img src="[[++list_base]]assets/content/ueber-uns/raeumlichkeiten/hauptgebaeude-busch.jpg" alt="" /></li>
+	<li><img src="[[++list_base]]assets/content/ueber-uns/raeumlichkeiten/hauptgebaeude-zahl.jpg" alt="" /></li>
+	<li><img src="[[++list_base]]assets/content/ueber-uns/raeumlichkeiten/okh-klein.jpg" alt="" /></li>
+	<li><img src="[[++list_base]]assets/content/sonstiges/flg-menschenbild-klein.jpg" alt="" /></li>
+</ul>

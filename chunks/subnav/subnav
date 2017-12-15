@@ -3,9 +3,8 @@
   &operator=`neq`
   &operand=`0`
   &then=`
-  	<aside id="subnav-box" class="list-g30 list-gl">
-      <div class="list-gbox-left">
-        <div id="subnav" class="box info">
+  	<div id="subnav-box" class="col-md-3">
+        <div id="subnav" class="box">
           [[Wayfinder?
             &startId=`[[UltimateParent? &top=`2`]]`
             &sortBy=`menuindex`
@@ -18,7 +17,7 @@
             &startItemTpl=`subnav-start`
 		  ]]
 		</div>
-		<div id="mn-subnav" class="box info">
+		<div id="mn-subnav" class="box">
           [[Wayfinder?
             &startId=`[[UltimateParent? &top=`2`]]`
             &sortBy=`menuindex`
@@ -30,7 +29,6 @@
             &startItemTpl=`mn-sub-start`
 		  ]]
 		</div>
-	  </div>
-	</aside>`
+	</div>`
   &else=``
 ]]

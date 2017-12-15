@@ -1,0 +1,31 @@
+[[If?
+	&subject=`[[*artikeldaten]]`
+	&operator=`=`
+	&operand=`1`
+	&then=`<div class="last-edited">
+<hr />
+<p>	
+[[If?
+	&subject=`[[*editor-name]]`
+	&operator=`=`
+	&operand=`1`
+	&then=`[[*editedby:userinfo=`fullname`:empty=`[[*createdby:userinfo=`fullname`]]`]]
+	[[If?
+		&subject=`[[*last-edited]]`
+		&operator=`=`
+		&operand=`1`
+		&then=` &nbsp; |&nbsp; [[*editedon:strtotime:date=`%d.%m.%Y`:empty=`[[*createdon:strtotime:date=`%d.%m.%Y`]]`]]`
+		&else=``
+	]]`
+	&else=`[[If?
+		&subject=`[[*last-edited]]`
+		&operator=`=`
+		&operand=`1`
+		&then=`[[*editedon:strtotime:date=`%d.%m.%Y`:empty=`[[*createdon:strtotime:date=`%d.%m.%Y`]]`]]`
+		&else=``
+	]]`
+]]
+	</p>
+</div>`
+	&else=``
+]]

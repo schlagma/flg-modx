@@ -1,0 +1,14 @@
+<div class="page-nav">[[!+page.nav]]</div>
+
+[[!getPage@pagination?
+    &elementClass=`modSnippet`
+    &element=`getResources`
+    &tpl=`news-tpl`
+    &parents=`[[*id]]`
+    &hideContainers=`1`
+    &includeTVs=`1`
+    &processTVs=`1`
+    &tvPrefix=``
+]]
+
+<div class="page-nav">[[!+page.nav]]</div>

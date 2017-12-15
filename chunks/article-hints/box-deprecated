@@ -1,0 +1,5 @@
+<div class="alert alert-warning alert-dismissible fade show">
+	<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	<p><strong>Dieser Artikel ist möglicherweise veraltet.</strong><br />
+	Wir bemühen uns, den Artikel so schnell wie möglich zu aktualisieren.</p>
+</div>

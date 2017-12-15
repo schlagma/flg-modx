@@ -16,7 +16,7 @@
 
         [[$header]]
 
-        [[$nav-b]]
+        [[$nav]]
 
         <div id="main">
             <div id="start-intro" class="container">

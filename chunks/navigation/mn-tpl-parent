@@ -1,0 +1,11 @@
+<div class="mn-item [[*isfolder:is=`1`:then=`isfolder`:else=``]]">
+	<div class="mn-item-box">
+		<div class="mn-title"><span[[+wf.classes]]>[[+wf.title]]</span></div>
+   		<div class="mn-angles">
+   			<div class="mn-title-shadow"><div></div></div>
+   			<a class="mn-collapse" data-toggle="collapse" href="#mn-col-[[+id]]" aria-expanded="false" aria-controls="mn-col-[[+id]]"><span></span></a>
+   			<a class="mn-link" href="[[+wf.link? &scheme=`full`]]" [[+wf.attributes]]><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+		</div>
+	</div>
+</div>
+<div class="mn-content collapse" id="mn-col-[[+id]]">[[+wf.wrapper]]</div>

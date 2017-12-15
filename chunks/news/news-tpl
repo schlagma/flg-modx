@@ -1,0 +1,19 @@
+<div class="news-element">
+	<a href="[[~[[+id]]? &scheme=`full`]]" title="[[+pagetitle]]" [[+link_attributes]]>
+		<table>
+			<tr>
+				<td>
+					<h3>[[+pagetitle]]</h3>
+					<p>
+						[[+introtext]]
+						<br />
+						<span class="contread">Weiterlesen&#160;&hellip;</span>
+					</p>
+				</td>
+				<td class="teaserimage">
+					<img src="[[++list_base]][[+teaserimage:empty=`assets/content/neuigkeiten/neuigkeit_120px.jpg`]]" alt="" />
+				</td>
+			</tr>
+		</table>
+	</a>
+</div>

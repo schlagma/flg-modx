@@ -1,0 +1,11 @@
+<script type="text/javascript" src="[[++list_base]]assets/layout/js/jquery3.min.js"></script>
+<script type="text/javascript" src="[[++list_base]]assets/layout/plugins/popper/dist/umd/popper.min.js"></script>
+<script type="text/javascript" src="[[++list_base]]assets/layout/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="[[++list_base]]assets/layout/js/lightbox.js"></script>
+<script type="text/javascript" src="[[++list_base]]assets/layout/js/go-to-top.js"></script>
+<script type="text/javascript" src="[[++list_base]]assets/layout/js/cookiebar.js"></script>
+<script type="text/javascript" src="[[++list_base]]assets/layout/plugins/shariff/shariff.min.js"></script>
+<script type="text/javascript" src="[[++list_base]]assets/layout/js/lightslider.js"></script>
+<script type="text/javascript" src="[[++list_base]]assets/layout/js/init.js"></script>
+<script type="text/javascript" src="[[++list_base]]assets/layout/plugins/leaflet/leaflet.js"></script>
+<script type="text/javascript" src="[[++list_base]]assets/layout/js/init-maps.js"></script>

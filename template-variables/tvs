@@ -1,0 +1,54 @@
+announcements-color
+  Radio Options
+  Input Option Values: gelb||grün||rot||grau
+  Default Value: gelb
+  Allow Blank: No
+  
+article-custom
+  Check Box
+  Input Option Values: Benutzerdefiniert==1
+  Default Value: 0
+  Allow Blank: Yes
+  
+article-custom-text
+  Rich Text
+  Default Value: Lorem ipsum dolor, sit amet...
+  
+article-deprecated
+  Check Box
+  Input Option Values: Veraltet==1
+  Default Value: 0
+  Allow Blank: Yes
+  
+article-incomplete
+  Check Box
+  Input Option Values: Unvollständig==1
+  Default Vaule: 0
+  Allow Blank: Yes
+  
+article-wip
+  Check Box
+  Input Option Vaules: In Arbeit==1
+  Default Value: 0
+  Allow Blank: Yes
+  
+Artikeldaten
+  Check Box
+  Input Option Values: Artikeldaten aktiveren==1
+  Default Value: 1
+  Allow Blank: Yes
+  
+last-edited
+  Check Box
+  Input Option Values: Datum anzeigen==1
+  Default: 1
+  Allow Blank: Yes
+  
+shariff-onoff
+  Check Box
+  Input Option Values: Schariff-Buttons anzeigen==1
+  Default: 1
+  Allow Blank: Yes
+  
+teaserimage
+  Image

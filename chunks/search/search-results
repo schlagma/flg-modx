@@ -1,0 +1,12 @@
+[[!SimpleSearch?
+  &tpl=`search-result`
+  &containerTpl=`search-results-container`
+  &noResultsTpl=`search-noresults`
+  &urlScheme=`full`
+  &perPage=`1000`
+  &extractEllipsis=` &hellip; `
+
+  &includeTVs=`1`
+  &processTVs=`1`
+  &tvPrefix=``
+]]

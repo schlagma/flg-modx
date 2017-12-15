@@ -1,0 +1,36 @@
+[[If?
+  &subject=`[[UltimateParent? &top=`2`]]`
+  &operator=`neq`
+  &operand=`0`
+  &then=`
+  	<aside id="subnav-box" class="list-g30 list-gl">
+      <div class="list-gbox-left">
+        <div id="subnav" class="box info">
+          [[Wayfinder?
+            &startId=`[[UltimateParent? &top=`2`]]`
+            &sortBy=`menuindex`
+            &scheme=`full`
+            &displayStart=`1`
+			&selfClass=`current`
+			&hideSubMenus=`1`
+
+			&rowTpl=`subnav-row`
+            &startItemTpl=`subnav-start`
+		  ]]
+		</div>
+		<div id="mn-subnav" class="box info">
+          [[Wayfinder?
+            &startId=`[[UltimateParent? &top=`2`]]`
+            &sortBy=`menuindex`
+            &scheme=`full`
+            &displayStart=`1`
+			&hideSubMenus=`1`
+
+			&rowTpl=`subnav-row`
+            &startItemTpl=`mn-sub-start`
+		  ]]
+		</div>
+	  </div>
+	</aside>`
+  &else=``
+]]
